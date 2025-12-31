@@ -1,0 +1,112 @@
+[
+  {
+    "dataset": "CHASE_DB1",
+    "text_prompt": "Retinal Blood Vessel",
+    "box_prompt": {
+      "dice": 0.08202765120382335,
+      "iou": 0.04483157254854913,
+      "psnr": 7.408624615756329,
+      "ssim": 0.007859423219888449,
+      "precision": 0.05252295244820554,
+      "recall": 0.3518687686801719,
+      "n_samples": 28
+    },
+    "text_prompt_results": {
+      "dice": 0.17864824210929645,
+      "iou": 0.09829363640894698,
+      "psnr": 3.0602868969038255,
+      "ssim": 0.037358325677350035,
+      "precision": 0.11659180456072729,
+      "recall": 0.8915510676706676,
+      "n_samples": 28
+    }
+  },
+  {
+    "dataset": "STARE",
+    "text_prompt": "Retinal Blood Vessel",
+    "box_prompt": {
+      "dice": 0.19516231635463652,
+      "iou": 0.10871886025679692,
+      "psnr": 2.504905219931339,
+      "ssim": 0.043604380879193105,
+      "precision": 0.115492033436873,
+      "recall": 0.9135605242250329,
+      "n_samples": 20
+    },
+    "text_prompt_results": {
+      "dice": 0.18559646739037036,
+      "iou": 0.10263384505989367,
+      "psnr": 1.8877772774795871,
+      "ssim": 0.03099269550950684,
+      "precision": 0.10292252507634095,
+      "recall": 0.9731227927971862,
+      "n_samples": 20
+    }
+  },
+  {
+    "dataset": "CVC-ClinicDB",
+    "text_prompt": "Polyp",
+    "box_prompt": {
+      "dice": 0.9361663342992881,
+      "iou": 0.8856554744868859,
+      "psnr": 21.974840120439463,
+      "ssim": 0.9257785015675859,
+      "precision": 0.9663626660892604,
+      "recall": 0.9126667021329246,
+      "n_samples": 612
+    },
+    "text_prompt_results": {
+      "dice": 0.0,
+      "iou": 0.0,
+      "psnr": 0.0,
+      "ssim": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "n_samples": 612
+    }
+  },
+  {
+    "dataset": "ETIS-Larib",
+    "text_prompt": "Polyp",
+    "box_prompt": {
+      "dice": 0.9443143455520284,
+      "iou": 0.8970556756988123,
+      "psnr": 26.901992848358216,
+      "ssim": 0.9427790644384338,
+      "precision": 0.9704223969277714,
+      "recall": 0.9214375822261096,
+      "n_samples": 196
+    },
+    "text_prompt_results": {
+      "dice": 0.0,
+      "iou": 0.0,
+      "psnr": 0.0,
+      "ssim": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "n_samples": 196
+    }
+  },
+  {
+    "dataset": "PH2",
+    "text_prompt": "Skin Lesion",
+    "box_prompt": {
+      "dice": 0.9389884645958755,
+      "iou": 0.8969079849645496,
+      "psnr": 16.70580059050248,
+      "ssim": 0.8963701775273638,
+      "precision": 0.973187456253217,
+      "recall": 0.9207182999127218,
+      "n_samples": 200
+    },
+    "text_prompt_results": {
+      "dice": 0.18440603459605975,
+      "iou": 0.14912918414232468,
+      "psnr": 2.508041057511467,
+      "ssim": -0.1644944633089473,
+      "precision": 0.21806355493017418,
+      "recall": 0.199636032407967,
+      "n_samples": 200
+    }
+  }
+]
