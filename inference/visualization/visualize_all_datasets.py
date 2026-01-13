@@ -103,6 +103,54 @@ def create_mask_visualization(mask: np.ndarray, color: tuple = (0, 255, 0)) -> n
     return vis
 
 
+def save_raw_masks(
+    output_dir: Path,
+    gt_mask: np.ndarray,
+    sam3_text_pred: np.ndarray,
+    medsam3_text_pred: np.ndarray,
+    sam3_box_pred: np.ndarray,
+    medsam3_box_pred: np.ndarray,
+    img_size: tuple
+):
+    """
+    Save raw binary masks (white on black).
+
+    Args:
+        output_dir: Directory to save masks
+        gt_mask: Ground truth mask
+        sam3_text_pred: SAM3 text prompt prediction
+        medsam3_text_pred: MedSAM3 text prompt prediction
+        sam3_box_pred: SAM3 box prompt prediction
+        medsam3_box_pred: MedSAM3 box prompt prediction
+        img_size: Target size (H, W) for masks
+    """
+    masks_dir = output_dir / "masks"
+    masks_dir.mkdir(parents=True, exist_ok=True)
+
+    def save_mask(mask: np.ndarray, filename: str):
+        """Save a binary mask as white (255) on black (0)."""
+        if mask is None:
+            # Save empty black image
+            empty = np.zeros(img_size, dtype=np.uint8)
+            Image.fromarray(empty).save(masks_dir / filename)
+        else:
+            # Resize if needed
+            if mask.shape[:2] != img_size:
+                mask_pil = Image.fromarray((mask * 255).astype(np.uint8))
+                mask_pil = mask_pil.resize((img_size[1], img_size[0]), Image.NEAREST)
+                mask = np.array(mask_pil)
+            else:
+                mask = (mask * 255).astype(np.uint8)
+            Image.fromarray(mask).save(masks_dir / filename)
+
+    # Save all masks
+    save_mask(gt_mask, "gt_mask.png")
+    save_mask(sam3_text_pred, "sam3_text_mask.png")
+    save_mask(sam3_box_pred, "sam3_box_mask.png")
+    save_mask(medsam3_text_pred, "medsam3_text_mask.png")
+    save_mask(medsam3_box_pred, "medsam3_box_mask.png")
+
+
 def save_individual_images(
     output_dir: Path,
     image: np.ndarray,
@@ -165,6 +213,17 @@ def save_individual_images(
     else:
         medsam3_box_overlay = image.copy()
     Image.fromarray(medsam3_box_overlay).save(output_dir / "medsam3_box.png")
+
+    # Save raw binary masks
+    save_raw_masks(
+        output_dir,
+        gt_mask,
+        sam3_text_pred,
+        medsam3_text_pred,
+        sam3_box_pred,
+        medsam3_box_pred,
+        gt_mask.shape[:2]
+    )
 
 
 def create_comparison_figure(
