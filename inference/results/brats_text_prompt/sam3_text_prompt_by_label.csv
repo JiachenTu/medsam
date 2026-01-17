@@ -1,0 +1,13 @@
+Label,Contrast,Best Text Prompt,Dice (%),IoU (%),N Samples
+NETC,T1N,Tumor,22.39,16.75,13
+NETC,T1C,Enhancing Tumor,20.69,13.35,13
+NETC,T2W,Tumor,25.98,19.96,13
+NETC,T2F,Tumor,19.02,13.07,13
+SNFH,T1N,Enhancing Tumor,10.35,6.38,32
+SNFH,T1C,Enhancing Tumor,4.49,2.7,32
+SNFH,T2W,Enhancing Tumor,8.82,5.23,32
+SNFH,T2F,Enhancing Tumor,14.02,9.61,32
+ET,T1N,Enhancing Tumor,23.04,16.24,26
+ET,T1C,Enhancing Tumor,40.59,33.27,26
+ET,T2W,Enhancing Tumor,32.02,23.33,26
+ET,T2F,Enhancing Tumor,20.76,14.27,26

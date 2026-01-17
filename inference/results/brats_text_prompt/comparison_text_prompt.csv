@@ -1,0 +1,17 @@
+Contrast,Text Prompt,SAM3 Dice (%),MedSAM3 Dice (%),Improvement (%),SAM3 IoU (%),MedSAM3 IoU (%)
+T1N,Brain Tumor,0.0,7.82,7.82,0.0,5.79
+T1N,Brain Metastasis,0.6,13.12,12.52,0.33,9.56
+T1N,Enhancing Tumor,20.25,22.49,2.24,14.17,16.28
+T1N,Tumor,6.87,18.15,11.28,4.4,12.93
+T1C,Brain Tumor,0.0,11.15,11.15,0.0,8.37
+T1C,Brain Metastasis,0.0,18.14,18.14,0.0,13.22
+T1C,Enhancing Tumor,20.28,29.23,8.95,13.29,21.13
+T1C,Tumor,2.38,23.82,21.44,1.4,17.49
+T2W,Brain Tumor,0.0,7.16,7.16,0.0,5.33
+T2W,Brain Metastasis,0.0,17.3,17.3,0.0,13.41
+T2W,Enhancing Tumor,20.96,32.77,11.81,13.73,23.99
+T2W,Tumor,5.31,25.81,20.5,3.24,19.32
+T2F,Brain Tumor,0.0,18.17,18.17,0.0,15.39
+T2F,Brain Metastasis,1.49,31.14,29.65,0.98,26.82
+T2F,Enhancing Tumor,21.03,37.99,16.96,15.04,32.1
+T2F,Tumor,11.14,33.39,22.25,8.58,29.09

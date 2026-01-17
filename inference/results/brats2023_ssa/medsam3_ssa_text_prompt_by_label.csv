@@ -1,0 +1,13 @@
+Label,Contrast,Best Text Prompt,Dice (%),IoU (%),N Samples
+NC,T1N,Non-Enhancing Tumor Core,66.66,58.43,9
+NC,T1C,Non-Enhancing Tumor Core,69.21,63.39,9
+NC,T2W,Tumor Core,61.84,50.73,9
+NC,T2F,Non-Enhancing Tumor Core,51.81,42.0,9
+ED,T1N,Brain Edema,10.63,7.17,14
+ED,T1C,Edema,10.88,7.62,14
+ED,T2W,Edema,36.21,26.61,14
+ED,T2F,Edema,32.58,25.54,14
+ET,T1N,Enhancing Tumor,33.95,23.46,9
+ET,T1C,Enhancing Tumor,58.48,47.64,9
+ET,T2W,Enhancing Tumor,46.21,34.33,9
+ET,T2F,Enhancing Tumor,44.17,32.44,9

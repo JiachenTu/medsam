@@ -1,0 +1,5 @@
+Contrast,Brain Tumor Dice (%),Brain Tumor IoU (%),Meningioma Dice (%),Meningioma IoU (%),Enhancing Tumor Dice (%),Enhancing Tumor IoU (%),Tumor Dice (%),Tumor IoU (%),N Samples
+T1N,0.0,0.0,6.41,3.97,21.85,13.49,40.57,30.4,6
+T1C,0.0,0.0,0.0,0.0,43.49,33.64,2.08,1.11,6
+T2W,0.0,0.0,0.0,0.0,37.71,26.63,38.81,28.51,6
+T2F,0.0,0.0,0.0,0.0,34.07,22.53,39.48,28.6,6

@@ -1,0 +1,17 @@
+Contrast,Text Prompt,SAM3 Dice (%),MedSAM3 Dice (%),Improvement (%)
+T1N,Brain Tumor,0.0,40.04,40.04
+T1N,Meningioma,6.41,26.61,20.2
+T1N,Enhancing Tumor,21.85,39.95,18.1
+T1N,Tumor,40.57,36.83,-3.74
+T1C,Brain Tumor,0.0,41.82,41.82
+T1C,Meningioma,0.0,34.24,34.24
+T1C,Enhancing Tumor,43.49,42.87,-0.62
+T1C,Tumor,2.08,42.74,40.66
+T2W,Brain Tumor,0.0,49.9,49.9
+T2W,Meningioma,0.0,35.67,35.67
+T2W,Enhancing Tumor,37.71,38.87,1.16
+T2W,Tumor,38.81,51.12,12.3
+T2F,Brain Tumor,0.0,32.12,32.12
+T2F,Meningioma,0.0,34.79,34.79
+T2F,Enhancing Tumor,34.07,25.14,-8.93
+T2F,Tumor,39.48,46.41,6.93

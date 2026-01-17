@@ -1,0 +1,574 @@
+{
+  "model_name": "sam3",
+  "dataset": "BraTS2023_MEN",
+  "timestamp": "2026-01-14T22:34:44.825083",
+  "n_cases": 20,
+  "contrasts": [
+    "t1n",
+    "t1c",
+    "t2w",
+    "t2f"
+  ],
+  "text_prompts": [
+    "Brain Tumor",
+    "Meningioma",
+    "Enhancing Tumor",
+    "Tumor"
+  ],
+  "by_contrast": {
+    "combined": {
+      "t1n": {
+        "text_prompts": {
+          "Brain Tumor": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 6
+          },
+          "Meningioma": {
+            "dice": 0.06412674462466994,
+            "iou": 0.039701074264362445,
+            "n": 6
+          },
+          "Enhancing Tumor": {
+            "dice": 0.2184623467717154,
+            "iou": 0.1349287888133183,
+            "n": 6
+          },
+          "Tumor": {
+            "dice": 0.4056975257246079,
+            "iou": 0.30401257459284853,
+            "n": 6
+          }
+        }
+      },
+      "t1c": {
+        "text_prompts": {
+          "Brain Tumor": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 6
+          },
+          "Meningioma": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 6
+          },
+          "Enhancing Tumor": {
+            "dice": 0.4348832260305619,
+            "iou": 0.33642380359497803,
+            "n": 6
+          },
+          "Tumor": {
+            "dice": 0.02081939177634025,
+            "iou": 0.011103180268062495,
+            "n": 6
+          }
+        }
+      },
+      "t2w": {
+        "text_prompts": {
+          "Brain Tumor": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 6
+          },
+          "Meningioma": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 6
+          },
+          "Enhancing Tumor": {
+            "dice": 0.3771037168719466,
+            "iou": 0.2663464022463271,
+            "n": 6
+          },
+          "Tumor": {
+            "dice": 0.38811199301307675,
+            "iou": 0.28508579702045406,
+            "n": 6
+          }
+        }
+      },
+      "t2f": {
+        "text_prompts": {
+          "Brain Tumor": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 6
+          },
+          "Meningioma": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 6
+          },
+          "Enhancing Tumor": {
+            "dice": 0.3406806681389228,
+            "iou": 0.22534573985998366,
+            "n": 6
+          },
+          "Tumor": {
+            "dice": 0.39480215671967095,
+            "iou": 0.2859778123262024,
+            "n": 6
+          }
+        }
+      }
+    }
+  },
+  "by_label": {
+    "NETC": {
+      "t1n": {
+        "text_prompts": {
+          "Brain Tumor": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 1
+          },
+          "Meningioma": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 1
+          },
+          "Enhancing Tumor": {
+            "dice": 0.031714568880079286,
+            "iou": 0.016112789526686808,
+            "n": 1
+          },
+          "Tumor": {
+            "dice": 0.9340974212034384,
+            "iou": 0.8763440860215054,
+            "n": 1
+          },
+          "Non-Enhancing Tumor Core": {
+            "dice": 0.9316239316239316,
+            "iou": 0.872,
+            "n": 1
+          },
+          "Necrotic Core": {
+            "dice": 0.956390977443609,
+            "iou": 0.9164265129682997,
+            "n": 1
+          },
+          "Tumor Core": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 1
+          }
+        }
+      },
+      "t1c": {
+        "text_prompts": {
+          "Brain Tumor": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 1
+          },
+          "Meningioma": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 1
+          },
+          "Enhancing Tumor": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 1
+          },
+          "Tumor": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 1
+          },
+          "Non-Enhancing Tumor Core": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 1
+          },
+          "Necrotic Core": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 1
+          },
+          "Tumor Core": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 1
+          }
+        }
+      },
+      "t2w": {
+        "text_prompts": {
+          "Brain Tumor": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 1
+          },
+          "Meningioma": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 1
+          },
+          "Enhancing Tumor": {
+            "dice": 0.005272407732864675,
+            "iou": 0.0026431718061674008,
+            "n": 1
+          },
+          "Tumor": {
+            "dice": 0.8086642599277978,
+            "iou": 0.6787878787878788,
+            "n": 1
+          },
+          "Non-Enhancing Tumor Core": {
+            "dice": 0.8038277511961722,
+            "iou": 0.672,
+            "n": 1
+          },
+          "Necrotic Core": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 1
+          },
+          "Tumor Core": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 1
+          }
+        }
+      },
+      "t2f": {
+        "text_prompts": {
+          "Brain Tumor": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 1
+          },
+          "Meningioma": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 1
+          },
+          "Enhancing Tumor": {
+            "dice": 0.06823027718550106,
+            "iou": 0.03532008830022075,
+            "n": 1
+          },
+          "Tumor": {
+            "dice": 0.6936542669584245,
+            "iou": 0.5309882747068677,
+            "n": 1
+          },
+          "Non-Enhancing Tumor Core": {
+            "dice": 0.6936542669584245,
+            "iou": 0.5309882747068677,
+            "n": 1
+          },
+          "Necrotic Core": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 1
+          },
+          "Tumor Core": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 1
+          }
+        }
+      }
+    },
+    "SNFH": {
+      "t1n": {
+        "text_prompts": {
+          "Brain Tumor": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 6
+          },
+          "Meningioma": {
+            "dice": 0.07356671740233384,
+            "iou": 0.047200520833333336,
+            "n": 6
+          },
+          "Enhancing Tumor": {
+            "dice": 0.15687686386578192,
+            "iou": 0.0938716671863984,
+            "n": 6
+          },
+          "Tumor": {
+            "dice": 0.10042483793740999,
+            "iou": 0.06068998839080012,
+            "n": 6
+          },
+          "Peritumoral Edema": {
+            "dice": 0.5773810336591098,
+            "iou": 0.46849691341677996,
+            "n": 6
+          },
+          "Edema": {
+            "dice": 0.6296936892481982,
+            "iou": 0.5011880403418503,
+            "n": 6
+          },
+          "FLAIR Hyperintensity": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 6
+          }
+        }
+      },
+      "t1c": {
+        "text_prompts": {
+          "Brain Tumor": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 6
+          },
+          "Meningioma": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 6
+          },
+          "Enhancing Tumor": {
+            "dice": 0.014598614098410269,
+            "iou": 0.00758750316225916,
+            "n": 6
+          },
+          "Tumor": {
+            "dice": 0.027644359056462803,
+            "iou": 0.015072160148975791,
+            "n": 6
+          },
+          "Peritumoral Edema": {
+            "dice": 0.6414139308673933,
+            "iou": 0.5459543786398625,
+            "n": 6
+          },
+          "Edema": {
+            "dice": 0.6395345789887771,
+            "iou": 0.5429413267399295,
+            "n": 6
+          },
+          "FLAIR Hyperintensity": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 6
+          }
+        }
+      },
+      "t2w": {
+        "text_prompts": {
+          "Brain Tumor": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 6
+          },
+          "Meningioma": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 6
+          },
+          "Enhancing Tumor": {
+            "dice": 0.08310129181278543,
+            "iou": 0.04671602101122808,
+            "n": 6
+          },
+          "Tumor": {
+            "dice": 0.0654853765070101,
+            "iou": 0.03936913135969442,
+            "n": 6
+          },
+          "Peritumoral Edema": {
+            "dice": 0.8224087122417097,
+            "iou": 0.7184259603439616,
+            "n": 6
+          },
+          "Edema": {
+            "dice": 0.8178793893685007,
+            "iou": 0.7126555129542158,
+            "n": 6
+          },
+          "FLAIR Hyperintensity": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 6
+          }
+        }
+      },
+      "t2f": {
+        "text_prompts": {
+          "Brain Tumor": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 6
+          },
+          "Meningioma": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 6
+          },
+          "Enhancing Tumor": {
+            "dice": 0.1805532023242186,
+            "iou": 0.1070328157808179,
+            "n": 6
+          },
+          "Tumor": {
+            "dice": 0.0429463445369064,
+            "iou": 0.02331204599899726,
+            "n": 6
+          },
+          "Peritumoral Edema": {
+            "dice": 0.7844944923288689,
+            "iou": 0.6643510154716445,
+            "n": 6
+          },
+          "Edema": {
+            "dice": 0.784168826690021,
+            "iou": 0.6640827001310265,
+            "n": 6
+          },
+          "FLAIR Hyperintensity": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 6
+          }
+        }
+      }
+    },
+    "ET": {
+      "t1n": {
+        "text_prompts": {
+          "Brain Tumor": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 4
+          },
+          "Meningioma": {
+            "dice": 0.029988004798080767,
+            "iou": 0.015950659293917483,
+            "n": 4
+          },
+          "Enhancing Tumor": {
+            "dice": 0.22906494698901403,
+            "iou": 0.14263133572969328,
+            "n": 4
+          },
+          "Tumor": {
+            "dice": 0.5522204117410207,
+            "iou": 0.4582980921973174,
+            "n": 4
+          },
+          "Enhancing Core": {
+            "dice": 0.23337223744395008,
+            "iou": 0.14561732426137736,
+            "n": 4
+          },
+          "Contrast-Enhancing Tumor": {
+            "dice": 0.22651778330245592,
+            "iou": 0.14066261884776426,
+            "n": 4
+          }
+        }
+      },
+      "t1c": {
+        "text_prompts": {
+          "Brain Tumor": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 4
+          },
+          "Meningioma": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 4
+          },
+          "Enhancing Tumor": {
+            "dice": 0.9536788459908032,
+            "iou": 0.9124147422502917,
+            "n": 4
+          },
+          "Tumor": {
+            "dice": 0.00624256837098692,
+            "iou": 0.003160746538229982,
+            "n": 4
+          },
+          "Enhancing Core": {
+            "dice": 0.9578248351942555,
+            "iou": 0.919875553898326,
+            "n": 4
+          },
+          "Contrast-Enhancing Tumor": {
+            "dice": 0.9549130535529684,
+            "iou": 0.9146944889631082,
+            "n": 4
+          }
+        }
+      },
+      "t2w": {
+        "text_prompts": {
+          "Brain Tumor": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 4
+          },
+          "Meningioma": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 4
+          },
+          "Enhancing Tumor": {
+            "dice": 0.7346162948107589,
+            "iou": 0.5869744598690113,
+            "n": 4
+          },
+          "Tumor": {
+            "dice": 0.6185437665850104,
+            "iou": 0.5050958562917824,
+            "n": 4
+          },
+          "Enhancing Core": {
+            "dice": 0.4295562273756595,
+            "iou": 0.3817164962712034,
+            "n": 4
+          },
+          "Contrast-Enhancing Tumor": {
+            "dice": 0.7653736741674918,
+            "iou": 0.6245110801839487,
+            "n": 4
+          }
+        }
+      },
+      "t2f": {
+        "text_prompts": {
+          "Brain Tumor": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 4
+          },
+          "Meningioma": {
+            "dice": 0.0,
+            "iou": 0.0,
+            "n": 4
+          },
+          "Enhancing Tumor": {
+            "dice": 0.429386925791178,
+            "iou": 0.2930368483634585,
+            "n": 4
+          },
+          "Tumor": {
+            "dice": 0.7065494557070562,
+            "iou": 0.587737174811486,
+            "n": 4
+          },
+          "Enhancing Core": {
+            "dice": 0.45609312335884206,
+            "iou": 0.314844507167479,
+            "n": 4
+          },
+          "Contrast-Enhancing Tumor": {
+            "dice": 0.4328180065325067,
+            "iou": 0.29553579648383116,
+            "n": 4
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+Contrast,Brain Tumor Dice (%),Brain Tumor IoU (%),Brain Metastasis Dice (%),Brain Metastasis IoU (%),Enhancing Tumor Dice (%),Enhancing Tumor IoU (%),Tumor Dice (%),Tumor IoU (%),N Samples
+T1N,7.82,5.79,13.12,9.56,22.49,16.28,18.15,12.93,32
+T1C,11.15,8.37,18.14,13.22,29.23,21.13,23.82,17.49,32
+T2W,7.16,5.33,17.3,13.41,32.77,23.99,25.81,19.32,32
+T2F,18.17,15.39,31.14,26.82,37.99,32.1,33.39,29.09,32

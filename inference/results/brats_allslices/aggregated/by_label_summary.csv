@@ -1,0 +1,13 @@
+label,model,prompt_type,dice_mean,dice_std,n_samples,iou_mean
+ET,medsam3,box,0.5377,0.3264,1236,0.4331
+ET,medsam3,text,0.4219,0.3442,1236,0.3322
+ET,sam3,box,0.5667,0.3288,1236,0.4637
+ET,sam3,text,0.4634,0.36,1236,0.3742
+NETC,medsam3,box,0.6138,0.2706,608,0.4942
+NETC,medsam3,text,0.3879,0.3429,608,0.3051
+NETC,sam3,box,0.6269,0.2773,608,0.5109
+NETC,sam3,text,0.4589,0.3446,608,0.3652
+SNFH,medsam3,box,0.6443,0.2253,1632,0.5125
+SNFH,medsam3,text,0.3445,0.3478,1632,0.2686
+SNFH,sam3,box,0.7313,0.1912,1632,0.6078
+SNFH,sam3,text,0.6112,0.2965,1632,0.4985

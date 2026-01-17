@@ -1,0 +1,17 @@
+Contrast,Text Prompt,SAM3 Dice (%),MedSAM3 Dice (%),Improvement (%)
+T1,Brain Tumor,0.0,35.22,35.22
+T1,Glioma,0.0,27.53,27.53
+T1,Enhancing Tumor,36.59,44.22,7.63
+T1,Tumor,21.02,42.16,21.14
+T1CE,Brain Tumor,0.0,31.41,31.41
+T1CE,Glioma,0.0,23.14,23.14
+T1CE,Enhancing Tumor,33.37,35.52,2.15
+T1CE,Tumor,14.79,34.62,19.83
+T2,Brain Tumor,0.0,27.31,27.31
+T2,Glioma,0.0,44.46,44.46
+T2,Enhancing Tumor,34.4,41.3,6.9
+T2,Tumor,20.03,41.67,21.63
+FLAIR,Brain Tumor,0.0,45.85,45.85
+FLAIR,Glioma,0.0,50.15,50.15
+FLAIR,Enhancing Tumor,26.6,52.16,25.56
+FLAIR,Tumor,20.81,53.27,32.46

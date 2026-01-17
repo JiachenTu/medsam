@@ -1,0 +1,21 @@
+Contrast,Text Prompt,SAM3 Dice (%),MedSAM3 Dice (%),Improvement (%)
+T1N,Brain Tumor,0.0,42.94,42.94
+T1N,Pediatric Brain Tumor,14.16,51.8,37.64
+T1N,Glioma,2.3,43.65,41.36
+T1N,Enhancing Tumor,29.1,53.82,24.72
+T1N,Tumor,31.22,60.28,29.06
+T1C,Brain Tumor,2.19,44.32,42.12
+T1C,Pediatric Brain Tumor,2.21,62.83,60.62
+T1C,Glioma,0.0,40.2,40.2
+T1C,Enhancing Tumor,20.27,50.16,29.89
+T1C,Tumor,24.65,61.17,36.53
+T2W,Brain Tumor,0.0,44.68,44.68
+T2W,Pediatric Brain Tumor,1.97,64.29,62.33
+T2W,Glioma,0.0,67.5,67.5
+T2W,Enhancing Tumor,35.86,61.61,25.75
+T2W,Tumor,18.69,63.59,44.9
+T2F,Brain Tumor,0.0,53.35,53.35
+T2F,Pediatric Brain Tumor,4.03,67.52,63.49
+T2F,Glioma,0.0,65.5,65.5
+T2F,Enhancing Tumor,44.76,67.89,23.13
+T2F,Tumor,37.83,75.19,37.36

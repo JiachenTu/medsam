@@ -1,0 +1,5 @@
+Contrast,Brain Tumor Dice (%),Brain Tumor IoU (%),Glioma Dice (%),Glioma IoU (%),Enhancing Tumor Dice (%),Enhancing Tumor IoU (%),Tumor Dice (%),Tumor IoU (%),N Samples
+T1,35.22,27.75,27.53,21.48,44.22,32.53,42.16,32.95,20
+T1CE,31.41,23.16,23.14,16.03,35.52,24.78,34.62,24.79,20
+T2,27.31,21.03,44.46,34.66,41.3,29.83,41.67,31.37,19
+FLAIR,45.85,38.19,50.15,39.47,52.16,41.18,53.27,43.18,20

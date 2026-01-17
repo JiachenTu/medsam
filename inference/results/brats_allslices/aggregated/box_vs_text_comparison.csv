@@ -1,0 +1,13 @@
+model,prompt_type,label,dice,iou
+medsam3,box,ET,0.5377,0.4331
+medsam3,box,NETC,0.6138,0.4942
+medsam3,box,SNFH,0.6443,0.5125
+medsam3,text,ET,0.4219,0.3322
+medsam3,text,NETC,0.3879,0.3051
+medsam3,text,SNFH,0.3445,0.2686
+sam3,box,ET,0.5667,0.4637
+sam3,box,NETC,0.6269,0.5109
+sam3,box,SNFH,0.7313,0.6078
+sam3,text,ET,0.4634,0.3742
+sam3,text,NETC,0.4589,0.3652
+sam3,text,SNFH,0.6112,0.4985

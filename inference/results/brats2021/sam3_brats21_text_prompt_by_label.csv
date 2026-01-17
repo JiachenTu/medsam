@@ -1,0 +1,13 @@
+Label,Contrast,Best Text Prompt,Dice (%),IoU (%),N Samples
+NCR,T1,Non-Enhancing Tumor Core,36.0,28.32,12
+NCR,T1CE,Non-Enhancing Tumor Core,51.2,44.93,12
+NCR,T2,Non-Enhancing Tumor Core,44.72,34.76,12
+NCR,FLAIR,Non-Enhancing Tumor Core,42.62,33.51,12
+ED,T1,Peritumoral Edema,55.46,41.74,18
+ED,T1CE,Brain Edema,61.93,47.85,18
+ED,T2,Edema,74.5,61.36,18
+ED,FLAIR,Brain Edema,76.38,63.18,18
+ET,T1,Enhancing Tumor,52.0,38.89,15
+ET,T1CE,Enhancing Tumor,67.5,58.93,15
+ET,T2,Contrast-Enhancing Tumor,53.67,40.09,15
+ET,FLAIR,Enhancing Tumor,51.2,38.95,15

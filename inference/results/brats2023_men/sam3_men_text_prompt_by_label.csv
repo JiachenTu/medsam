@@ -1,0 +1,13 @@
+Label,Contrast,Best Text Prompt,Dice (%),IoU (%),N Samples
+NETC,T1N,Necrotic Core,95.64,91.64,1
+NETC,T1C,N/A,0.0,0.0,1
+NETC,T2W,Tumor,80.87,67.88,1
+NETC,T2F,Tumor,69.37,53.1,1
+SNFH,T1N,Edema,62.97,50.12,6
+SNFH,T1C,Peritumoral Edema,64.14,54.6,6
+SNFH,T2W,Peritumoral Edema,82.24,71.84,6
+SNFH,T2F,Peritumoral Edema,78.45,66.44,6
+ET,T1N,Tumor,55.22,45.83,4
+ET,T1C,Enhancing Core,95.78,91.99,4
+ET,T2W,Contrast-Enhancing Tumor,76.54,62.45,4
+ET,T2F,Tumor,70.65,58.77,4
