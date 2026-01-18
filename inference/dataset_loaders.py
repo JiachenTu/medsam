@@ -12,8 +12,8 @@ import numpy as np
 from PIL import Image
 
 
-# Base data directory
-DATA_ROOT = Path("/srv/local/shared/medsam_data")
+# Base data directory - update this path to your local data location
+DATA_ROOT = Path("../medsam_data")
 
 # Text prompts for each dataset
 DATASET_PROMPTS = {

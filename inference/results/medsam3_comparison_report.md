@@ -127,4 +127,4 @@ The most significant improvement is in **text-prompted segmentation**:
 
 - Base SAM3 results: `results/sam3_evaluation_detailed.json`
 - MedSAM3 results: `results/medsam3_ckpt0_evaluation_detailed.json`
-- Checkpoints: `/srv/local/shared/temp/tmp1/jtu9/medsam3_weights/`
+- Checkpoints: `/path/to/medsam3_weights/`

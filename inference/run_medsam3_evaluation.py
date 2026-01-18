@@ -10,7 +10,7 @@ Evaluates MedSAM3 with custom checkpoints using both box prompts and text prompt
 - PH2 (Dermoscopy - Skin Lesion)
 
 Usage:
-    conda activate /srv/local/shared/temp/tmp1/jtu9/envs/medsam3
+    conda activate medsam3
     python run_medsam3_evaluation.py --checkpoint /path/to/checkpoint.pt --model-name medsam3_v1
 """
 

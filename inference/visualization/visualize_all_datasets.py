@@ -10,7 +10,7 @@ For each dataset, creates:
 2. Combined 1x4 comparison layouts
 
 Usage:
-    conda activate /srv/local/shared/temp/tmp1/jtu9/envs/medsam3
+    conda activate medsam3
     python visualize_all_datasets.py
 """
 

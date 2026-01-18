@@ -10,7 +10,7 @@ Evaluates SAM3 with both box prompts and text prompts on:
 - PH2 (Dermoscopy - Skin Lesion)
 
 Usage:
-    conda activate /srv/local/shared/temp/tmp1/jtu9/envs/medsam3
+    conda activate medsam3
     python run_evaluation.py [--max-samples N] [--datasets DATASET1,DATASET2]
 """
 

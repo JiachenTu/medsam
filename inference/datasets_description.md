@@ -10,7 +10,7 @@
 | ETIS-Larib | 内窥镜 | 196 | 1225×966 | 息肉分割 | Polyp |
 | PH2 | 皮肤镜 | 200 | 768×560 | 病变分割 | Skin Lesion |
 
-**数据路径**: `/srv/local/shared/medsam_data/`
+**数据路径**: `../medsam_data/`
 
 ---
 

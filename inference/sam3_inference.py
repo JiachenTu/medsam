@@ -11,8 +11,8 @@ import numpy as np
 import torch
 from PIL import Image
 
-# Add SAM3 to path
-SAM3_ROOT = Path("/home/jtu9/SAM/sam3")
+# Add SAM3 to path - update this to your SAM3 installation directory
+SAM3_ROOT = Path("../sam3")
 sys.path.insert(0, str(SAM3_ROOT))
 
 from sam3 import build_sam3_image_model
